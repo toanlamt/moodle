@@ -162,6 +162,14 @@ div.editor_atto_content:hover .atto_control {
     margin: 3px 14px;
 }
 
+.editor_atto_menu .dropdown-menu > li > a[class^="item_"] {
+    color: #000000;
+}
+
+.editor_atto_menu .open ul.dropdown-menu {
+    min-width: auto;
+}
+
 .editor_atto_menu .open ul.dropdown-menu {
     padding-top: 5px;
     padding-bottom: 5px;

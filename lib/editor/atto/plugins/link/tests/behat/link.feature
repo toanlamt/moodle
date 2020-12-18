@@ -12,6 +12,7 @@ Feature: Add links to Atto
     And I set the field "Description" to "Super cool"
     And I select the text in the "Description" Atto editor
     And I click on "Link" "button"
+    And I click on "Link [Ctrl + k]" "link"
     And I click on "Browse repositories..." "button"
     And I click on "Private files" "link" in the ".fp-repo-area" "css_element"
     And I click on "moodle-logo.png" "link"

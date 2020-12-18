@@ -11,6 +11,7 @@ Feature: Indent text in Atto
     And I select the text in the "Description" Atto editor
     And I click on "Show more buttons" "button"
     And I click on "Indent" "button"
+    And I click on "Indent" "link"
     And I press "Update profile"
     And I follow "Preferences" in the user menu
     And I follow "Editor preferences"
@@ -27,7 +28,9 @@ Feature: Indent text in Atto
     And I select the text in the "Description" Atto editor
     And I click on "Show more buttons" "button"
     And I click on "Indent" "button"
-    And I click on "Outdent" "button"
+    And I click on "Indent" "link"
+    And I click on "Indent" "button"
+    And I click on "Outdent" "link"
     And I press "Update profile"
     And I follow "Preferences" in the user menu
     And I follow "Editor preferences"

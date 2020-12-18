@@ -9,7 +9,8 @@ Feature: Atto align text
     And I set the field "Description" to "<p>Fascism</p>"
     And I click on "Show more buttons" "button"
     And I select the text in the "Description" Atto editor
-    When I click on "Right align" "button"
+    When I click on "Text align" "button"
+    And I click on "Right align" "link"
     And I press "Update profile"
     And I follow "Preferences" in the user menu
     And I follow "Editor preferences"
@@ -25,8 +26,10 @@ Feature: Atto align text
     And I set the field "Description" to "<p>Communism</p>"
     And I click on "Show more buttons" "button"
     And I select the text in the "Description" Atto editor
-    When I click on "Right align" "button"
-    And I click on "Left align" "button"
+    When I click on "Text align" "button"
+    And I click on "Right align" "link"
+    And I click on "Text align" "button"
+    And I click on "Left align" "link"
     And I press "Update profile"
     And I follow "Preferences" in the user menu
     And I follow "Editor preferences"
@@ -42,7 +45,8 @@ Feature: Atto align text
     And I set the field "Description" to "<p>United Future</p>"
     And I click on "Show more buttons" "button"
     And I select the text in the "Description" Atto editor
-    When I click on "Center" "button"
+    When I click on "Text align" "button"
+    And I click on "Center" "link"
     And I press "Update profile"
     And I follow "Preferences" in the user menu
     And I follow "Editor preferences"
