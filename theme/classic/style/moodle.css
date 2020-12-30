@@ -14465,6 +14465,9 @@ body.drawer-ease {
   display: table;
   text-align: center; }
 
+.file-picker .fp-content .fp-progressbars {
+  padding: 10px; }
+
 .file-picker .fp-content .fp-object-container {
   width: 98%;
   height: 98%; }
